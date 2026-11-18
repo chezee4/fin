@@ -1,0 +1,24 @@
+# Залежності та кеш Wrangler
+node_modules/
+.wrangler/
+
+# Секрети та ключі (НЕ комітити)
+.secret
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets.json
+
+# Тимчасові тестові файли
+public/_t.html
+
+# Система / редактори / логи
+.DS_Store
+*.log
+npm-debug.log*
+.vscode/
+.idea/
